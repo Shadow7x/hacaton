@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/hacaton/static/css/main.2788371b.css",
-    "main.js": "/hacaton/static/js/main.d06888d1.js",
+    "main.js": "/hacaton/static/js/main.1af447b6.js",
     "static/media/Montserrat-Bold.ttf": "/hacaton/static/media/Montserrat-Bold.50f0257aa1e905f4bfaf.ttf",
     "static/media/Montserrat-Light.ttf": "/hacaton/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
     "static/media/Montserrat-Regular.ttf": "/hacaton/static/media/Montserrat-Regular.24785cc015b27a3e964b.ttf",
@@ -10,10 +10,10 @@
     "static/media/fsp_full_ru-black.svg": "/hacaton/static/media/fsp_full_ru-black.95bd8d411c92b96cbdbd.svg",
     "index.html": "/hacaton/index.html",
     "main.2788371b.css.map": "/hacaton/static/css/main.2788371b.css.map",
-    "main.d06888d1.js.map": "/hacaton/static/js/main.d06888d1.js.map"
+    "main.1af447b6.js.map": "/hacaton/static/js/main.1af447b6.js.map"
   },
   "entrypoints": [
     "static/css/main.2788371b.css",
-    "static/js/main.d06888d1.js"
+    "static/js/main.1af447b6.js"
   ]
 }
