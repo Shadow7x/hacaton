@@ -1,0 +1,21 @@
+RewriteEngine On
+RewriteBase /aas/
+
+# Обработка индексной страницы
+RewriteRule ^index\.html$ - [L]
+
+# Обработка статических файлов
+RewriteCond %{REQUEST_FILENAME} -f
+RewriteRule ^ - [L]
+
+# Обработка динамических страниц
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ index.html [L]
+
+# Обработка страниц с параметрами
+RewriteRule ^aas/(.*)$ index.html [L]
+
+ErrorDocument 404 /aas/
+
+FallbackResource /aas/
