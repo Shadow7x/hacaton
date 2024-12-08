@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /aas/
+RewriteBase /hacaton/
 
 # Обработка индексной страницы
 RewriteRule ^index\.html$ - [L]
@@ -14,8 +14,8 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*)$ index.html [L]
 
 # Обработка страниц с параметрами
-RewriteRule ^aas/(.*)$ index.html [L]
+RewriteRule ^hacaton/(.*)$ index.html [L]
 
-ErrorDocument 404 /aas/
+ErrorDocument 404 /hacaton/
 
-FallbackResource /aas/
+FallbackResource /hacaton/
